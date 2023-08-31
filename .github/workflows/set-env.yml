@@ -51,4 +51,5 @@ jobs:
 
       - name: Run Build Steps
         run: |
+          echo "BUILD_ENV is $BUILD_ENV"
           npm run check-env
