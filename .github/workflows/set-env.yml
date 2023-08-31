@@ -50,7 +50,7 @@ jobs:
 
       - name: Run Build Steps
         run: |
-          echo "Environment is : $GITHUB_ENV"
+          echo "Environment is : ${{ env }}"
           echo "Vars are ${{ vars.BUILD_ENV }}"
 
 
