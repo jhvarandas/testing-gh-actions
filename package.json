@@ -16,8 +16,5 @@
   "bugs": {
     "url": "https://github.com/jhvarandas/testing-gh-actions/issues"
   },
-  "homepage": "https://github.com/jhvarandas/testing-gh-actions#readme",
-  "devDependencies": {
-    "dotenv": "^16.3.1"
-  }
+  "homepage": "https://github.com/jhvarandas/testing-gh-actions#readme"
 }
