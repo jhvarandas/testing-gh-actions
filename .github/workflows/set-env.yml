@@ -43,7 +43,7 @@ jobs:
     environment:
       name: ${{ needs.set-environment.outputs.environment_name }}
     env:
-      $BUILD_ENV: ${{ vars.BUILD_ENV }}
+      BUILD_ENV: ${{ vars.BUILD_ENV }}
 
     steps:
       - name: Checkout Code Again
