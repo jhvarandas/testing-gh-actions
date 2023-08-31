@@ -49,7 +49,7 @@ jobs:
 
       - name: Run Build Steps
         run: |
-          echo "$BUILD_ENV" "$ENV"
+          npm run check-env
 
 
 
