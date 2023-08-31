@@ -42,6 +42,8 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: ${{ needs.set-environment.outputs.environment_name }}
+    env:
+      $BUILD_ENV: ${{ vars.BUILD_ENV }}
 
     steps:
       - name: Checkout Code Again
@@ -49,7 +51,7 @@ jobs:
 
       - name: Run Build Steps
         run: |
-          echo "$BUILD_ENV" "$ENV"
+          npm run check-env
 
 
 
