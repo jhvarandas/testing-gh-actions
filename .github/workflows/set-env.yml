@@ -50,7 +50,7 @@ jobs:
 
       - name: Run Build Steps
         run: |
-          echo "Environment is : ${{ env }}"
+          echo "Environment is : ${{ env.name }} - ${{ env.env }}"
           echo "Vars are ${{ vars.BUILD_ENV }}"
 
 
